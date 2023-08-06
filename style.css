@@ -148,3 +148,43 @@
       font-size: 10px;
     }
   }
+
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 30px 10px;
+  }
+
+  header input {
+    max-width: 100%;
+  }
+
+  main {
+    padding: 15px;
+  }
+
+  .location .city {
+    font-size: 24px;
+  }
+
+  .location .date {
+    font-size: 14px;
+  }
+
+  .current .temp {
+    font-size: 80px;
+  }
+
+  .current .weather {
+    font-size: 24px;
+  }
+
+  .current .hi-low {
+    font-size: 18px;
+  }
+
+  footer {
+    font-size: 10px;
+  }
+}
